@@ -10,7 +10,7 @@ confinement: devmode
 apps:
   electron-snap-test:
     command:
-    - $SNAP/usr/sbin:$SNAP/usr/bin:$SNAP/sbin:$SNAP/bin
+    - "$SNAP/usr/sbin:$SNAP/usr/bin:$SNAP/sbin:$SNAP/bin"
     plugs:
     - browser-support
     - desktop
