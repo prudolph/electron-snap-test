@@ -33,6 +33,4 @@ win:
 
 linux:
   target:
-    - deb
-    - AppImage
     - snap

@@ -1,9 +1,0 @@
-version: 0.0.0
-files:
-  - url: electron-react-redux-boilerplate-0.0.0-x86_64.AppImage
-    sha512: UAXykTptbcpxCNiICYE1CQkqh7/48pWzT8BPbsg+H2CmMMH8zx969kE9ijvPY/ApGDKTCGqcFcfVn9nd1IfLKQ==
-    size: 54683784
-    blockMapSize: 57804
-path: electron-react-redux-boilerplate-0.0.0-x86_64.AppImage
-sha512: UAXykTptbcpxCNiICYE1CQkqh7/48pWzT8BPbsg+H2CmMMH8zx969kE9ijvPY/ApGDKTCGqcFcfVn9nd1IfLKQ==
-releaseDate: '2019-06-24T22:34:25.345Z'
