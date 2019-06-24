@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MyApp
+Comment=electron-react-redux-boilerplate
+Exec=electron-react-redux-boilerplate
+Terminal=false
+Type=Application
+Icon=${SNAP}/meta/gui/icon.png
+StartupWMClass=MyApp
+Categories=Utility;
