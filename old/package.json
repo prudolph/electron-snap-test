@@ -1,0 +1,60 @@
+{
+  "name": "testapp_2",
+  "productName": "testapp_2",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make  --platform=linux and --arch=arm64",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "paulrudolph",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "make_targets": {
+        "darwin": [
+          "zip"
+        ],
+        "linux": [
+          "snap"
+        ]
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-snap",
+          "config": {
+            "features": {
+              "audio": true,
+              "mpris": "com.example.mpris",
+              "webgl": true
+            },
+            "summary": "Pretty Awesome"
+          }
+        }
+      ]
+    }
+  },
+  "dependencies": {
+
+    "electron-compile": "^6.4.4",
+    "electron-forge": "^5.2.4",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "6.0.0-beta.39",
+    "@electron-forge/maker-snap": "^6.0.0-beta.39",
+    "@electron-forge/maker-deb": "6.0.0-beta.39",
+    "@electron-forge/maker-rpm": "6.0.0-beta.39",
+    "@electron-forge/maker-squirrel": "6.0.0-beta.39",
+    "@electron-forge/maker-zip": "6.0.0-beta.39",
+    "electron": "5.0.5",
+    "electron-installer-snap": "^4.0.0",
+    "electron-prebuilt-compile": "3.0.13"
+  }
+}

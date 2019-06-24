@@ -4,8 +4,8 @@ summary: App summary
 description: |
   App description
 
-grade: devel
-confinement: devmode
+grade: stable
+confinement: classic
 
 apps:
   electron-snap-test:
